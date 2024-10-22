@@ -11,5 +11,6 @@
 ## 2. Compile C program to executable code:
 *We use gcc to compile to given C program (the C program is named vul1.c):*<br>
 *gcc -g vul1.c -o vul1.out -fno-stack-protector -mpreferred-stack-boundary=2*
-![image](https://github.com/user-attachments/assets/e079c512-33b4-4599-a7fa-c1dd22173ebb)
+<img width="500" alt="Screenshot" src="https://github.com/user-attachments/assets/e079c512-33b4-4599-a7fa-c1dd22173ebb"><br>
+
 
