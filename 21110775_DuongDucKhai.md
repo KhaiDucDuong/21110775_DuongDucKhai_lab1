@@ -78,3 +78,7 @@ print exit
 find SHELLCODE
 ```
 <img width="500" alt="Screenshot" src="https://github.com/user-attachments/assets/bc37c3e9-fb85-49da-8119-0aeb5b63cab0"><br>
+*We only want the value from the SHELLCODE environment variable, so we'll increment its address by 10 (based on the length of the variable name + 1 for the equal sign). Thus, we get the new address: 0xffffdeef. We can confirm it again using the following command.:*<br>
+<img width="500" alt="Screenshot" src="https://github.com/user-attachments/assets/4b5ee748-66dd-4143-adcc-381bf97a7664"><br>
+## 7. Find addresses:
+
